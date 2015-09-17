@@ -4,7 +4,7 @@ package com.scoolboard.rest.monitor;
  * Created by prtis on 9/15/2015.
  */
 
-import com.gilt.timeuuid.TimeUuid;
+import com.fasterxml.uuid.Generators;
 import org.apache.commons.io.input.TeeInputStream;
 import org.glassfish.jersey.server.monitoring.RequestEvent;
 import org.glassfish.jersey.server.monitoring.RequestEventListener;
@@ -17,7 +17,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class SbRequestEventListner implements RequestEventListener{
+public class SbRequestEventListner implements RequestEventListener {
 
     private static RequestLogger requestLogger = new RequestLogger();
     public static long startTime;
@@ -58,7 +58,7 @@ public class SbRequestEventListner implements RequestEventListener{
                 String uuid = startTime + "-" + getHostName() + "-" + Thread.currentThread().getId() +
                         (requestInfo.getUserId() != null ? "-u" + requestInfo.getUserId() : "") +
                         "-t" + getRequestMethodKey(requestInfo.getMethod());
-                requestInfo.setUUID(TimeUuid.apply().timestamp());
+                requestInfo.setUUID(Generators.timeBasedGenerator().generate().timestamp());
                 MDC.put("UUID", "ID:" + uuid);
                 MDC.put("ID_START", "[");
                 MDC.put("ID_END", "]");

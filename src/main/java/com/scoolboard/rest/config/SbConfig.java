@@ -26,11 +26,11 @@ public class SbConfig extends AbstractCouchbaseConfiguration {
 
     @Override
     protected String getBucketName() {
-        return "beer-sample";
+        return "scoolboard";
     }
 
     protected String getBucketPassword() {
-        return "";
+        return "scoolboard";
     }
 
     @Bean

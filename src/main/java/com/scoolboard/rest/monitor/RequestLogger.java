@@ -20,8 +20,7 @@ public class RequestLogger {
                 methodExecution + "ms", status,
                 requestInfo.getLoginId(), requestInfo.getBaseUri(), requestInfo.getDatabaseOpTime() + "ms"};
         if (status >= 500) {
-            log.info(form.format(obj) + " | requestBody = "
-                    + requestInfo.getProxyEntityStream().toString());
+            log.info(form.format(obj) + " | requestBody = " + requestInfo.getProxyEntityStream().toString());
         } else {
             log.info(form.format(obj));
         }

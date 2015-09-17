@@ -5,4 +5,5 @@ package com.scoolboard.rest.common.data;
  */
 public interface HasId<T> {
     T getId();
+    void setId(T id);
 }

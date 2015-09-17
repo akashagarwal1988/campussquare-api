@@ -1,11 +1,27 @@
 package com.scoolboard.rest.entity;
 
 import com.scoolboard.rest.common.data.HasId;
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.data.couchbase.core.mapping.Field;
+
+import java.util.Date;
 
 /**
  * Created by prtis on 9/15/2015.
  */
-public interface AbstractDO<ID> extends HasId<ID> {
-    public ID getId();
-    public void setId(ID id);
+public abstract class AbstractDO<ID> implements HasId<ID> {
+    abstract public ID getId();
+
+    abstract public void setId(ID id);
+
+    @Field
+    @Getter
+    @Setter
+    private Date createdAt;
+
+    @Field
+    @Getter
+    @Setter
+    private Date updatedAt;
 }
