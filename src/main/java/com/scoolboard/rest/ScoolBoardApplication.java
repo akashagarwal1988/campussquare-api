@@ -1,11 +1,12 @@
 package com.scoolboard.rest;
 
 import com.scoolboard.rest.config.SbConfig;
+import com.scoolboard.rest.config.SecurityConfig;
+import com.scoolboard.rest.config.SecurityWebApplicationInitializer;
+import com.scoolboard.rest.config.SwaggerConfiguration;
 import com.scoolboard.rest.filter.CORSResponseFilter;
 import com.scoolboard.rest.filter.LoggingResponseFilter;
 import com.scoolboard.rest.monitor.AppEventListner;
-import com.scoolboard.rest.monitor.RequestLogger;
-import com.scoolboard.rest.monitor.SbRequestEventListner;
 import com.wordnik.swagger.jaxrs.listing.ApiDeclarationProvider;
 import com.wordnik.swagger.jaxrs.listing.ApiListingResourceJSON;
 import com.wordnik.swagger.jaxrs.listing.ResourceListingProvider;
@@ -30,6 +31,9 @@ public class ScoolBoardApplication extends ResourceConfig {
         packages("com.scoolboard.rest.service");
 
         register(SbConfig.class);
+        register(SecurityConfig.class);
+        register(SwaggerConfiguration.class);
+        register(SecurityWebApplicationInitializer.class);
         register(AppEventListner.class);
 
         //register filters

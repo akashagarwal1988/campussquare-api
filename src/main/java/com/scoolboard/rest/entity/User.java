@@ -4,7 +4,6 @@ package com.scoolboard.rest.entity;
  * Created by prtis on 9/14/2015.
  */
 
-import com.scoolboard.rest.common.data.HasId;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,6 +12,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.Field;
+
+import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -34,6 +35,29 @@ public class User extends AbstractDO<String> {
     @Setter
     private String lastname;
 
+    @Field
+    @Getter
+    @Setter
+    private String email;
+
+    @Field
+    @Getter
+    @Setter
+    private String password;
+
+    @Field
+    @Getter
+    @Setter
+    private List<UserRole> userRole;
+
+    @Field
+    @Getter
+    @Setter
+    private boolean enabled;
+
     @Version
     private long version;
+
+
 }
+
