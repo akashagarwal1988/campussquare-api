@@ -13,6 +13,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -41,7 +42,6 @@ public class MyUserDetailService extends BaseServiceImpl<com.scoolboard.rest.ent
         query.setKey(ComplexKey.of(username));
 
         com.scoolboard.rest.entity.User user = getRepository().findByUserEmail(query);
-        log.info("user " + user);
         List<GrantedAuthority> authorities = buildUserAuthority(new HashSet<UserRole>(user.getUserRole()));
 
         return buildUserForAuthentication(user, authorities);
@@ -67,5 +67,13 @@ public class MyUserDetailService extends BaseServiceImpl<com.scoolboard.rest.ent
         List<GrantedAuthority> result = new ArrayList<GrantedAuthority>(setAuths);
 
         return result;
+    }
+
+    // for testing and user creation purpose
+    private String getHashedPassword(String password) {
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        String hashedPassword = passwordEncoder.encode(password);
+        return hashedPassword;
+
     }
 }
