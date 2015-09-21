@@ -4,15 +4,15 @@ package com.scoolboard.rest.entity;
  * Created by prtis on 9/14/2015.
  */
 
-import com.scoolboard.rest.common.data.HasId;
+import com.couchbase.client.java.repository.annotation.Field;
+import com.couchbase.client.java.repository.annotation.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
 import org.springframework.data.couchbase.core.mapping.Document;
-import org.springframework.data.couchbase.core.mapping.Field;
+
 
 @NoArgsConstructor
 @AllArgsConstructor

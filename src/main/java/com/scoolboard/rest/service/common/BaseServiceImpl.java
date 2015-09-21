@@ -3,8 +3,7 @@ package com.scoolboard.rest.service.common;
 import com.fasterxml.uuid.Generators;
 import com.scoolboard.rest.common.constant.ServiceOperation;
 import com.scoolboard.rest.entity.AbstractDO;
-import org.springframework.beans.BeanUtils;
-import org.springframework.data.repository.CrudRepository;
+import com.scoolboard.rest.repository.BaseRepository;
 
 import javax.validation.Valid;
 import java.io.Serializable;
@@ -16,7 +15,7 @@ import java.util.Date;
  */
 public abstract class BaseServiceImpl<TDO extends AbstractDO, ID extends Serializable> implements BaseService<TDO, ID> {
 
-    abstract protected CrudRepository<TDO, ID> getRepository();
+    abstract protected BaseRepository<TDO, ID> getRepository();
 
     @Override
     public TDO get(ID id, ServiceOperation operation) throws Exception {

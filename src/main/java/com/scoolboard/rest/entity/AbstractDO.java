@@ -1,9 +1,9 @@
 package com.scoolboard.rest.entity;
 
+import com.couchbase.client.java.repository.annotation.Field;
 import com.scoolboard.rest.common.data.HasId;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.couchbase.core.mapping.Field;
 
 import java.util.Date;
 
