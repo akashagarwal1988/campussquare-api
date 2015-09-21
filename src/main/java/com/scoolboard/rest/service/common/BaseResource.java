@@ -5,12 +5,15 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.jaxrs.annotation.JacksonFeatures;
 import com.scoolboard.rest.common.constant.ServiceOperation;
 import com.scoolboard.rest.common.data.HasId;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Component;
 
 import javax.validation.Valid;
 import javax.ws.rs.*;
 import java.io.Serializable;
 import java.util.Collection;
+import java.util.List;
 
 /**
  * Created by prtis on 9/14/2015.
@@ -27,6 +30,13 @@ public abstract class BaseResource<TDO extends HasId, ID extends Serializable> {
     public TDO edit(@PathParam("id") ID id) throws Exception {
         return getService().get(id, ServiceOperation.GET);
     }
+
+//    @GET
+//    @JacksonFeatures(serializationEnable = SerializationFeature.WRAP_ROOT_VALUE,
+//            deserializationEnable = DeserializationFeature.UNWRAP_ROOT_VALUE)
+//    public Page<TDO> findAll() throws Exception {
+//        return getService().findAll(new PageRequest(0, 5));
+//    }
 
     @POST
     @JacksonFeatures(serializationEnable = SerializationFeature.WRAP_ROOT_VALUE,

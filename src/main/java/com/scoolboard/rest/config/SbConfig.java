@@ -16,11 +16,11 @@ import java.util.List;
  */
 @Configuration
 @ImportResource("classpath:spring/applicationContext.xml")
-@EnableCouchbaseRepositories("com.scoolboard.rest.repository")
+@EnableCouchbaseRepositories(basePackages = {"com.scoolboard.rest.repository"})
 public class SbConfig extends AbstractCouchbaseConfiguration {
 
     @Override
-    protected List<String> bootstrapHosts() {
+    protected List<String> getBootstrapHosts() {
         return Collections.singletonList("127.0.0.1");
     }
 

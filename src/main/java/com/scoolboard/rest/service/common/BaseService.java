@@ -2,6 +2,9 @@ package com.scoolboard.rest.service.common;
 
 import com.scoolboard.rest.common.constant.ServiceOperation;
 import com.scoolboard.rest.common.data.HasId;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 
 import javax.validation.Valid;
 import java.io.Serializable;
@@ -13,6 +16,8 @@ import java.util.Collection;
 public interface BaseService<TDO extends HasId, ID extends Serializable> {
 
     public TDO get(ID id, ServiceOperation operation) throws Exception;
+
+   // public Page<TDO> findAll(Pageable pageable);
 
     public TDO add(@Valid TDO t, ServiceOperation operation) throws Exception;
 
