@@ -21,7 +21,7 @@ public class SbConfig extends AbstractCouchbaseConfiguration {
 
     @Override
     protected List<String> getBootstrapHosts() {
-        return Collections.singletonList("127.0.0.1");
+        return Collections.singletonList("107.178.213.209");
     }
 
     @Override
