@@ -28,6 +28,14 @@ public abstract class BaseResource<TDO extends HasId, ID extends Serializable> {
         return getService().get(id, ServiceOperation.GET);
     }
 
+    @GET
+    @Path("/all")
+    @JacksonFeatures(serializationEnable = SerializationFeature.WRAP_ROOT_VALUE,
+            deserializationEnable = DeserializationFeature.UNWRAP_ROOT_VALUE)
+    public Iterable<TDO> index() throws Exception {
+        return getService().getAll();
+    }
+
     @POST
     @JacksonFeatures(serializationEnable = SerializationFeature.WRAP_ROOT_VALUE,
             deserializationEnable = DeserializationFeature.UNWRAP_ROOT_VALUE)

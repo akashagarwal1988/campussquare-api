@@ -14,6 +14,8 @@ public interface BaseService<TDO extends HasId, ID extends Serializable> {
 
     public TDO get(ID id, ServiceOperation operation) throws Exception;
 
+    public Iterable<TDO> getAll() throws Exception;
+
     public TDO add(@Valid TDO t, ServiceOperation operation) throws Exception;
 
     public Iterable<TDO> addBatch(Collection<TDO> entities, ServiceOperation operation) throws Exception;

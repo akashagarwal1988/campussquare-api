@@ -3,7 +3,8 @@ package com.scoolboard.rest.service.common;
 import com.fasterxml.uuid.Generators;
 import com.scoolboard.rest.common.constant.ServiceOperation;
 import com.scoolboard.rest.entity.AbstractDO;
-import org.springframework.beans.BeanUtils;
+import com.scoolboard.rest.repository.user.TestRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
 
 import javax.validation.Valid;
@@ -18,10 +19,16 @@ public abstract class BaseServiceImpl<TDO extends AbstractDO, ID extends Seriali
 
     abstract protected CrudRepository<TDO, ID> getRepository();
 
+    @Autowired
+    TestRepository repository;
+
     @Override
     public TDO get(ID id, ServiceOperation operation) throws Exception {
         return getRepository().findOne(id);
     }
+
+    @Override
+    public Iterable<TDO> getAll() { return repository.all();}
 
     @Override
     public TDO add(@Valid TDO t, ServiceOperation operation) throws Exception {
