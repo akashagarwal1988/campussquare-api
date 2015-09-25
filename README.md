@@ -2,7 +2,8 @@
 
 ### Technologies ###
 
-# Spring
-# Jersey
-# Spring-data-couchbase
-# Swagger
+* Spring
+* Jersey
+* Spring-Data-couchbase
+* Swagger
+* Jetty
