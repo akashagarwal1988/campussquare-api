@@ -2,7 +2,7 @@
 
 ### Technologies ###
 
-Spring
-Jersey
-Spring-data-couchbase
-Swagger
+# Spring
+# Jersey
+# Spring-data-couchbase
+# Swagger
