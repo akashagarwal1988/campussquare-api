@@ -167,11 +167,10 @@
             <version>${logback.version}</version>
         </dependency>
 
-        <!-- Swagger -->
         <dependency>
-            <groupId>com.wordnik</groupId>
-            <artifactId>swagger-jersey2-jaxrs_2.10</artifactId>
-            <version>${swagger.version}</version>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-jaxrs</artifactId>
+            <version>1.5.3</version>
         </dependency>
 
         <dependency>

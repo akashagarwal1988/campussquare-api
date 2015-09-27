@@ -6,6 +6,7 @@ package com.scoolboard.rest.entity;
 
 import com.couchbase.client.java.repository.annotation.Field;
 import com.couchbase.client.java.repository.annotation.Id;
+import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,6 +17,7 @@ import org.springframework.data.couchbase.core.mapping.Document;
 
 @NoArgsConstructor
 @AllArgsConstructor
+@ApiModel(value="User", description="User model for the documentation")
 @Document
 public class User extends AbstractDO<String> {
 

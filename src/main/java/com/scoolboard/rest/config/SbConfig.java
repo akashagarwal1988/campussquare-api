@@ -1,5 +1,6 @@
 package com.scoolboard.rest.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
@@ -18,6 +19,15 @@ import java.util.List;
 @ImportResource("classpath:spring/applicationContext.xml")
 @EnableCouchbaseRepositories(basePackages = {"com.scoolboard.rest.repository"})
 public class SbConfig extends AbstractCouchbaseConfiguration {
+
+    @Value("${swagger.apiVersion}")
+    private String apiVersion;
+
+    @Value("${swagger.basePath}")
+    private String basePath;
+
+    @Value("${swagger.resourcePackage}")
+    private String resourcePackage;
 
     @Override
     protected List<String> getBootstrapHosts() {
@@ -42,4 +52,6 @@ public class SbConfig extends AbstractCouchbaseConfiguration {
     public ValidatingCouchbaseEventListener validationEventListener() {
         return new ValidatingCouchbaseEventListener(validator());
     }
+
+
 }
