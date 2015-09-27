@@ -20,10 +20,6 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-    <context-param>
-        <param-name>spring.profiles.default</param-name>
-        <param-value>prod</param-value>
-    </context-param>
 
     <servlet>
         <servlet-name>jersey-serlvet</servlet-name>
@@ -40,7 +36,6 @@
             <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
             <param-value>true</param-value>
         </init-param>
-
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
@@ -51,6 +46,7 @@
         <servlet-name>jersey-serlvet</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
+
 </web-app>
 
 
