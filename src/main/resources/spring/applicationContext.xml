@@ -15,6 +15,6 @@
                 com.scoolboard.rest.entity,
                 com.scoolboard.rest.filter,
                 com.scoolboard.rest.repository"/>
-    <context:property-placeholder location="classpath:properties/swagger.properties"/>
 
+    <context:property-placeholder location="classpath:properties/swagger.properties"/>
 </beans>

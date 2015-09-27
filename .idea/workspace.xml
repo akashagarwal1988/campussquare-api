@@ -2,32 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033156f5-ef1c-420a-918b-55e3df74a7cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/config/SwaggerConfiguration.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/images/logo_small.png" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/images/logo_small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/images/pet_store_api.png" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/images/pet_store_api.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/images/throbber.gif" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/images/throbber.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/images/wordnik_api.png" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/images/wordnik_api.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/common/BaseResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/common/BaseResource.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_jaxrs_1_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-31.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-37.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-40.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-43.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-44.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-47.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-49.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-51.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-53.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_19-59.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-01.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-02.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-05.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-08.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-09.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-13.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-16.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-17.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-18.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-19.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-20.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-21.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-22.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-24.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-25.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-52.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-53.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-55.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-58.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_20-59.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-00.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-03.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-05.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-06.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-08.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-11.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-15.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-16.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-19.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-22.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-29.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-30.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-32.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-33.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-34.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-35.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-36.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/minutes/rest-demo-minute.2015-09-26_21-37.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c:/tmp/rest-demo.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/config/SbConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/config/SbConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/ScoolBoardApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/ScoolBoardApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/service/user/UserResource.class" afterPath="$PROJECT_DIR$/target/classes/com/scoolboard/rest/service/user/UserResource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/config/SbConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/config/SbConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/ScoolBoardApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/ScoolBoardApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/entity/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/user/UserResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/user/UserResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/backbone-min.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/backbone-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/highlight.7.3.pack.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/highlight.7.3.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery-1.8.0.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery-1.8.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery.ba-bbq.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery.ba-bbq.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery.slideto.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery.slideto.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery.wiggle.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/jquery.wiggle.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/css/screen.css" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/swagger-ui.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/swagger-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/swagger-ui.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/swagger-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoolboard-api.iml" afterPath="$PROJECT_DIR$/scoolboard-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/scoolboard_api_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/scoolboard_api_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/swagger.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/swagger.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/underscore-min.js" afterPath="$PROJECT_DIR$/src/main/webapp/api-doc/lib/underscore-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/swagger.properties" afterPath="$PROJECT_DIR$/target/classes/properties/swagger.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scoolboard-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/ScoolBoardApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="45" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="45" />
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +120,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SbConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SbConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/config/SbConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7222222">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.4444444">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="31" />
+              <folding>
+                <element signature="e#1334#1335#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.8333334">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.407767">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -82,63 +163,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/common/BaseResource.java">
+      <file leaf-file-name="swagger.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/swagger.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/user/UserResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/repository/BaseRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swagger-ui.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/swagger-ui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="120.07407">
-              <caret line="2837" column="11" selection-start-line="2837" selection-start-column="11" selection-end-line="2837" selection-end-column="11" />
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -148,7 +177,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -167,15 +196,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/config/SbConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/api-doc/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/user/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/common/BaseResource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/user/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/swagger.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/ScoolBoardApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scoolboard/rest/config/SbConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/api-doc/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/api-doc/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -280,30 +313,8 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scoolboard-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scoolboard-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api-doc" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,10 +341,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="api-doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,6 +363,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scoolboard-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scoolboard-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="properties" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,8 +437,8 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/api-doc" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/api-doc" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.Unnamed">
@@ -777,12 +810,12 @@
       <option name="number" value="Default" />
       <updated>1443325090411</updated>
       <workItem from="1443325092293" duration="435000" />
-      <workItem from="1443325580679" duration="2495000" />
+      <workItem from="1443325580679" duration="4966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2930000" />
+    <option name="totallyTimeSpent" value="5401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="842" extended-state="6" />
@@ -808,7 +841,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3350582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29754204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -832,38 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="163" column="20" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/css/print.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/swagger-ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="120.07407">
@@ -880,28 +881,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/common/BaseResource.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-jaxrs/1.5.3/swagger-jaxrs-1.5.3.jar!/io/swagger/jaxrs/config/BeanConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="7.2222223">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.777778">
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/user/UserResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-          <folding />
+        <state vertical-scroll-proportion="-0.30864197">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.5473251">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/service/common/BaseResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030864198">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="18" column="86" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
           <folding />
         </state>
       </provider>
@@ -909,7 +938,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/ScoolBoardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="45" />
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -918,8 +947,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scoolboard/rest/config/SbConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7222222">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.4444444">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="31" />
+          <folding>
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/css/print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/swagger.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/api-doc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8333334">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.407767">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>

@@ -7,9 +7,12 @@ import com.scoolboard.rest.common.constant.ServiceOperation;
 import com.scoolboard.rest.entity.User;
 import com.scoolboard.rest.service.common.BaseResource;
 import com.scoolboard.rest.service.common.BaseService;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
+//import io.swagger.annotations.Api;
+//import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiParam;
+import com.wordnik.swagger.annotations.Api;
+import com.wordnik.swagger.annotations.ApiOperation;
+import com.wordnik.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -23,8 +26,6 @@ import java.util.Collection;
  * Created by prtis on 9/14/2015.
  */
 @Path("users")
-@Produces({MediaType.APPLICATION_JSON})
-@Consumes({MediaType.APPLICATION_JSON})
 @Resource
 @Api(value = "/users", description = "Operations for Users")
 @Component
@@ -40,6 +41,8 @@ public class UserResource extends BaseResource<User, String> {
 
     @GET
     @Path("{id}")
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     @ApiOperation(value = "Get User", response = User.class)
     @JacksonFeatures(serializationEnable = SerializationFeature.WRAP_ROOT_VALUE,
             deserializationEnable = DeserializationFeature.UNWRAP_ROOT_VALUE)
@@ -56,6 +59,8 @@ public class UserResource extends BaseResource<User, String> {
 //    }
 
     @POST
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     @JacksonFeatures(serializationEnable = SerializationFeature.WRAP_ROOT_VALUE,
             deserializationEnable = DeserializationFeature.UNWRAP_ROOT_VALUE)
     @ApiOperation(value = "Create User", response = User.class)
@@ -64,6 +69,8 @@ public class UserResource extends BaseResource<User, String> {
     }
 
     @POST
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     @Path("/batch")
     @ApiOperation(value = "Create Users", response = User.class, responseContainer = "List")
     public Iterable<User> createBatch(@ApiParam(name = "User", value = "Users Payload", required = true) Collection<User> tCol) throws Exception {
@@ -71,6 +78,8 @@ public class UserResource extends BaseResource<User, String> {
     }
 
     @PUT
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     @Path("{id}")
     @ApiOperation(value = "Update User")
     public void update(@ApiParam(value = "Id of user", required = true) @PathParam("id") String id,
@@ -79,6 +88,8 @@ public class UserResource extends BaseResource<User, String> {
     }
 
     @PUT
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     @Path("/batch")
     @ApiOperation(value = "Update Users")
     public void updateBatch(@ApiParam(name = "Users", value = "Users Payload", required = true) Collection<User> tCol) throws Exception {
@@ -86,6 +97,8 @@ public class UserResource extends BaseResource<User, String> {
     }
 
     @DELETE
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
     @Path("{id}")
     @ApiOperation(value = "Delete Users")
     public void delete(@ApiParam(value = "Id of user", required = true) @PathParam("id") String id) throws Exception {

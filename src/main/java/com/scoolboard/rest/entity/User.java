@@ -6,7 +6,7 @@ package com.scoolboard.rest.entity;
 
 import com.couchbase.client.java.repository.annotation.Field;
 import com.couchbase.client.java.repository.annotation.Id;
-import io.swagger.annotations.ApiModel;
+import com.wordnik.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

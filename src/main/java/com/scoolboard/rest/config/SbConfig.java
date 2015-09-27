@@ -1,5 +1,7 @@
 package com.scoolboard.rest.config;
 
+import com.wordnik.swagger.jaxrs.config.BeanConfig;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,12 +11,14 @@ import org.springframework.data.couchbase.core.mapping.event.ValidatingCouchbase
 import org.springframework.data.couchbase.repository.config.EnableCouchbaseRepositories;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 
+import javax.annotation.PostConstruct;
 import java.util.Collections;
 import java.util.List;
 
 /**
  * Created by prtis on 9/14/2015.
  */
+@Slf4j
 @Configuration
 @ImportResource("classpath:spring/applicationContext.xml")
 @EnableCouchbaseRepositories(basePackages = {"com.scoolboard.rest.repository"})
@@ -53,5 +57,17 @@ public class SbConfig extends AbstractCouchbaseConfiguration {
         return new ValidatingCouchbaseEventListener(validator());
     }
 
+    @PostConstruct
+    public void init() {
+        log.info("api version::" + apiVersion);
+        log.info("basePath::" + basePath);
+        log.info("resourcePackage::" + resourcePackage);
+        BeanConfig beanConfig = new BeanConfig();
+        beanConfig.setVersion(apiVersion);
+        beanConfig.setBasePath(basePath);
+        beanConfig.setResourcePackage(resourcePackage);
+        beanConfig.setScan(true);
+
+    }
 
 }
