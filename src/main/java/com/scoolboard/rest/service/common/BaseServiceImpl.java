@@ -2,13 +2,20 @@ package com.scoolboard.rest.service.common;
 
 import com.fasterxml.uuid.Generators;
 import com.scoolboard.rest.common.constant.ServiceOperation;
+import com.scoolboard.rest.common.validation.Validation;
+import com.scoolboard.rest.common.validation.ValidationMessage;
 import com.scoolboard.rest.entity.AbstractDO;
+
 import com.scoolboard.rest.repository.BaseRepository;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.CrudRepository;
+
 import javax.validation.Valid;
+import javax.ws.rs.WebApplicationException;
+import javax.ws.rs.core.Response;
 import java.io.Serializable;
-import java.util.Collection;
-import java.util.Date;
+import java.util.*;
 
 /**
  * Created by prtis on 9/14/2015.
@@ -17,6 +24,9 @@ public abstract class BaseServiceImpl<TDO extends AbstractDO, ID extends Seriali
 
     abstract protected BaseRepository<TDO, ID> getRepository();
 
+    @Autowired
+    Validation validation;
+
     @Override
     public TDO get(ID id, ServiceOperation operation) throws Exception {
         return getRepository().findOne(id);
@@ -24,6 +34,7 @@ public abstract class BaseServiceImpl<TDO extends AbstractDO, ID extends Seriali
 
     @Override
     public TDO add(@Valid TDO t, ServiceOperation operation) throws Exception {
+        validate(t, true);
         setField(t, operation);
         return getRepository().save(t);
     }
@@ -36,6 +47,7 @@ public abstract class BaseServiceImpl<TDO extends AbstractDO, ID extends Seriali
 
     @Override
     public void update(ID id, TDO t, ServiceOperation operation) throws Exception {
+        validate(t, true);
         setField(t, operation);
         getRepository().save(t);
     }
@@ -62,5 +74,20 @@ public abstract class BaseServiceImpl<TDO extends AbstractDO, ID extends Seriali
 
     private void setFields(Collection<TDO> tCol, ServiceOperation operation) {
         tCol.stream().forEach(t -> setField(t, operation));
+    }
+
+    protected List<ValidationMessage> validate(Object model, boolean throwOnError) throws Exception {
+        List<ValidationMessage> errors = validation.validate(model);
+        if (throwOnError && !errors.isEmpty()) {
+            throwValidationError(errors);
+        }
+
+        return errors;
+    }
+
+    protected void throwValidationError(List<ValidationMessage> errors) throws Exception {
+        Map<String, List<ValidationMessage>> aMap = new HashMap<String, List<ValidationMessage>>();
+        aMap.put("validationMessages", errors);
+        throw new WebApplicationException(Response.status(422).entity(aMap).build());
     }
 }

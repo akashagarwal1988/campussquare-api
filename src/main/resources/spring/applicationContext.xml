@@ -14,6 +14,7 @@
                 com.scoolboard.rest.config,
                 com.scoolboard.rest.entity,
                 com.scoolboard.rest.filter,
+                com.scoolboard.rest.common.validation,
                 com.scoolboard.rest.repository"/>
 
     <context:property-placeholder location="classpath:properties/swagger.properties"/>
