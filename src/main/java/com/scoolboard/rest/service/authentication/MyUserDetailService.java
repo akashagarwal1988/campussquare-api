@@ -47,7 +47,7 @@ public class MyUserDetailService extends BaseServiceImpl<com.scoolboard.rest.ent
         return buildUserForAuthentication(user, authorities);
     }
 
-    // Converts com.mkyong.users.model.User user to
+    // Converts com.scoolboard.rest.entity.User user to
     // org.springframework.security.core.userdetails.User
     private User buildUserForAuthentication(com.scoolboard.rest.entity.User user,
                                             List<GrantedAuthority> authorities) {
